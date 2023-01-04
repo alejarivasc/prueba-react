@@ -1,0 +1,28 @@
+body {
+    background-image: url("./assets/img/harry-potter-5819942_1280.png");
+}
+
+.img {
+    width: 228px;
+    height: 305px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.card {
+    border-color: goldenrod;
+    border-radius: 5%;
+    box-shadow: 3px 3px 3px 2px goldenrod;
+
+}
+
+.msg {
+    color: goldenrod;
+    margin: 50px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #FEF9A7;
+    margin-bottom: 50px;
+}
