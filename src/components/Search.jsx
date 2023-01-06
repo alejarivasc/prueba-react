@@ -27,7 +27,7 @@ const Search = ({ setTextoBuscar, setOrdenado, ordenado, textoBuscar }) => {
                   onChange={(e) => setOrdenado(e.target.value)}
                   value={ordenado}
                 >
-                  <option>Ordenar por orden alfabético ascendente</option>
+                  <option>Ordenar por orden alfabético ascendente</option >
                   <option>Ordenar por orden alfabético descendente</option>
                 </Form.Select>
               </Form>{" "}

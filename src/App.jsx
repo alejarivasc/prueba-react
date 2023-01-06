@@ -15,7 +15,7 @@ function App() {
   const orderASC = (char1, char2) =>
     char1.name > char2.name ? 1 : char1.name < char2.name ? -1 : 0;
 
-  const orderDESC = (char1, char2) =>
+  const orderDESC = (char1, char2) => 
     char1.name < char2.name ? 1 : char1.name > char2.name ? -1 : 0;
 
   return (
