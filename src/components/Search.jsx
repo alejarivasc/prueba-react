@@ -25,10 +25,10 @@ const Search = ({ setTextoBuscar, setOrdenado, ordenado, textoBuscar }) => {
                 />
                 <Form.Select
                   onChange={(e) => setOrdenado(e.target.value)}
-                  value={ordenado}
+               value={ordenado}
                 >
-                  <option>Ordenar por orden alfabético ascendente</option >
-                  <option>Ordenar por orden alfabético descendente</option>
+                  <option  value="ASC" >Ordenar por orden alfabético ascendente</option  >
+                  <option   value="DESC">Ordenar por orden alfabético descendente</option>
                 </Form.Select>
               </Form>{" "}
             </Navbar.Text>
